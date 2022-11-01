@@ -1,0 +1,186 @@
+
+.navside{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    z-index: 9999;
+}
+.navloga{
+    width: 40px;
+}
+.navbtn{
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
+}
+.navlinks{
+    padding-top: 20px;
+    
+    display: none;
+}
+
+.navlinks ul{
+    list-style: none;  
+color: white;
+   
+}
+.navlinks li{
+    padding-top: 30px;
+    cursor: pointer;
+
+}
+
+
+.navhide{
+    background-color: black;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    z-index: 99999;
+    width: 20%;
+
+}
+
+.navdown{
+margin-left: 20px;
+}
+
+.item{
+    border: 1px solid rgba(109, 108, 108, 0.158);
+ position: relative;
+ overflow: hidden;
+ cursor: pointer;
+}
+.item img{
+    width: 100%;
+}
+
+.layer{
+position: absolute;
+top: 100%;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: rgba(255, 255, 255, 0.685);
+transition: all 1s;
+text-align: center;
+color: black;
+}
+.item:hover .layer{
+    top: 0;
+    
+}
+section{
+    margin-left: 50px;
+}
+
+.input{
+   
+    color: white;
+}
+.input:hover{
+    background-color: black;
+}
+.disareatext{
+    color: rgba(255, 255, 255, 0.719);
+}
+.disarealogo{
+    text-align: center;
+    color: rgba(136, 4, 4, 0.781);
+}
+.disarea{
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.151);
+    border-radius: 10px;
+    padding: 10px;
+ cursor: pointer;
+}
+
+.ingredients-section-logo{
+    font-size: 50px;
+    color: rgb(24, 153, 24);
+}
+.ingredients-section2{
+    text-align: center;
+    cursor: pointer;
+    height: 250px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.055);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.034);
+    
+   
+}
+.contactinput{
+    background-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: 0px 3px 5px rgba(255, 255, 255, 0.219);
+}
+.contactinput:hover{
+    background-color: black;
+}
+.contactbtn{
+    border: 1px solid rgb(99, 0, 0);
+    background-color: black;
+}
+
+.plus{
+
+    border-radius: 20px;
+
+}
+.searchtext{
+
+    text-align: center;
+    margin-top: 40%;
+    font-size: 40px;
+    font-weight: 100;
+
+}
+
+.details{
+color: rgba(255, 255, 255, 0.658);
+text-align: left;
+
+}
+.details h2{
+
+    font-weight: 100;
+    text-align: center;
+    margin: auto;
+    
+}
+
+
+.detailsrecips{
+display: flex;
+justify-content: space-around;
+padding: 10px;
+flex-wrap: wrap;
+}
+.detailsrecips p {
+
+   
+    padding: 10px;
+  
+}
+
+.detailsimg img{
+
+width: 100%;    
+
+}
